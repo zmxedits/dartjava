@@ -46,7 +46,7 @@ public void fuehreAus()
     }
   }
     
-  if(dieMaus.istGedrueckt){
+  if(dieMaus.istGedrueckt()){
     meinStift.dreheUm(360);
   }
 }
