@@ -43,4 +43,8 @@ public void fuehreAus()
   if(v == 600){
     v = 0;
   }
+  
+  if(dieMaus.istGedrueckt){
+    meinStift.dreheUm(360);
+  }
 }
