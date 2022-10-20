@@ -36,14 +36,16 @@ public void fuehreAus()
   y++;
   v++;
   
-  if(y == 600){
-    y = 0;
-  }
+  while(!dieMaus.istGedrueckt()) {
+    if(y == 600){
+      y = 0;
+    }
   
-  if(v == 600){
-    v = 0;
+    if(v == 600){
+      v = 0;
+    }
   }
-  
+    
   if(dieMaus.istGedrueckt){
     meinStift.dreheUm(360);
   }
