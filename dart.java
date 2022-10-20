@@ -11,10 +11,7 @@ public void fuehreAus()
   int y = 230;
   int v = 200; 
   int b = 0;
-  
-  while(b < 800){
-    b++;
-  }
+ 
   
   while(x < 700){
      meinStift.normal();
@@ -36,6 +33,14 @@ public void fuehreAus()
   meinStift.bewegeBis(c, v);
   meinStift.zeichneKreis(2);
   
-  x++;
-  c++;
+  y++;
+  v++;
+  
+  if(y == 600){
+    y = 0;
+  }
+  
+  if(v == 600){
+    v = =;
+  }
 }
