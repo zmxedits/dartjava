@@ -41,6 +41,6 @@ public void fuehreAus()
   }
   
   if(v == 600){
-    v = =;
+    v = 0;
   }
 }
